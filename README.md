@@ -11,3 +11,7 @@ Hello World
 Miracle Pills
 --------------
 - Buy a pill for $150
+
+Rainy Shiny Cloudy
+--------------
+- Simple Weather App using Alamofire and Stackview
