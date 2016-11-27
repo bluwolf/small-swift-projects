@@ -55,8 +55,8 @@ class CurrentWeather{
     
     func downloadWeatherDetails(completed: @escaping DownloadComplete){
         
-        let currentWeatheURL = URL(string: CURRENT_WEATHER_URL)!
-        Alamofire.request(currentWeatheURL).responseJSON{ response in
+
+        Alamofire.request(CURRENT_WEATHER_URL).responseJSON{ response in
             let result = response.result
             
             if let dict = result.value as? Dictionary<String, AnyObject>{
