@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220509201DEA4F350029A023 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2205091F1DEA4F350029A023 /* Forecast.swift */; };
+		220509221DEA6A850029A023 /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220509211DEA6A850029A023 /* WeatherTableViewCell.swift */; };
 		221BC89F1DE8051E00EB9DE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221BC89E1DE8051E00EB9DE9 /* AppDelegate.swift */; };
 		221BC8A11DE8051E00EB9DE9 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221BC8A01DE8051E00EB9DE9 /* WeatherViewController.swift */; };
 		221BC8A41DE8051E00EB9DE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221BC8A21DE8051E00EB9DE9 /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2205091F1DEA4F350029A023 /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		220509211DEA6A850029A023 /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
 		221BC89B1DE8051E00EB9DE9 /* rainyshinycloudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rainyshinycloudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		221BC89E1DE8051E00EB9DE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		221BC8A01DE8051E00EB9DE9 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +120,8 @@
 				221BC8AA1DE8051E00EB9DE9 /* Info.plist */,
 				22CF68871DEA06C100FA6512 /* Constants.swift */,
 				22CF68891DEA099500FA6512 /* CurrentWeather.swift */,
+				2205091F1DEA4F350029A023 /* Forecast.swift */,
+				220509211DEA6A850029A023 /* WeatherTableViewCell.swift */,
 			);
 			path = rainyshinycloudy;
 			sourceTree = "<group>";
@@ -343,10 +349,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				220509221DEA6A850029A023 /* WeatherTableViewCell.swift in Sources */,
 				221BC8A11DE8051E00EB9DE9 /* WeatherViewController.swift in Sources */,
 				221BC89F1DE8051E00EB9DE9 /* AppDelegate.swift in Sources */,
 				22CF688A1DEA099500FA6512 /* CurrentWeather.swift in Sources */,
 				22CF68881DEA06C100FA6512 /* Constants.swift in Sources */,
+				220509201DEA4F350029A023 /* Forecast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
